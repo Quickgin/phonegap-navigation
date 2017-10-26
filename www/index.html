@@ -13,51 +13,77 @@
 <body>
   
   	<div data-role="page" id="pageone">
-  <div data-role="header" data-position="fixed">
+        
+    <div data-role="panel" id="myPanel">
     <h1>Welcome To My Homepage</h1>
-  </div>
-
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-btn-icon-left">Go to Page One</a>
+    <a href="#pagetwo" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-btn-icon-left">Go to Page Two</a>   
+    <a href="#pagethree" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-btn-icon-left">Go to Page Three</a> 
+  </div>  
+    
+        
+  <div data-role="header">
+  <h1>Page Header</h1>
+  </div>  
+        
   <div data-role="main" class="ui-content">
-    <p>Welcome! If you click on the link below, it will take you to Page Two.</p>
-    <a href="#pagetwo">Go to Page Two</a>
+    <p>This is Page One.</p>
+    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left">Open Panel</a>
   </div>
-
-  <div data-role="footer" data-position="fixed">
-    <h1>Footer Text</h1>
+   
+  <div data-role="footer">
+  <h1>Page Footer</h1>
   </div>
 </div> 
 
-
+    
 <div data-role="page" id="pagetwo">
-  <div data-role="header" data-position="fixed">
+    <div data-role="panel" id="myPanel">
     <h1>Welcome To My Homepage</h1>
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-btn-icon-left">Go to Page One</a>
+    <a href="#pagetwo" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-btn-icon-left">Go to Page Two</a>   
+    <a href="#pagethree" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-btn-icon-left">Go to Page Three</a> 
   </div>
 
+  <div data-role="header">
+  <h1>Page Header</h1>
+  </div>  
+        
   <div data-role="main" class="ui-content">
-    <p>This is Page Two. If you click on the link below, it will take you to Page Three.</p>
-    <a href="#pagethree">Go to Page Three</a>
+    <p>This is Page Two.</p>
+    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left">Open Panel</a>
   </div>
-
-  <div data-role="footer" data-position="fixed">
-    <h1>Footer Text</h1>
+   
+  <div data-role="footer">
+  <h1>Page Footer</h1>
   </div>
 </div> 
+
 
 
 <div data-role="page" id="pagethree">
-  <div data-role="header" data-position="fixed">
+    <div data-role="panel" id="myPanel">
     <h1>Welcome To My Homepage</h1>
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-btn-icon-left">Go to Page One</a>
+    <a href="#pagetwo" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-btn-icon-left">Go to Page Two</a>   
+    <a href="#pagethree" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-btn-icon-left">Go to Page Three</a> 
   </div>
 
+  <div data-role="header">
+  <h1>Page Header</h1>
+  </div>  
+        
   <div data-role="main" class="ui-content">
-    <p>This is Page Three. If you click on the link below, it will take you to Page One.</p>
-    <a href="#pageone">Go to Page One</a>
+    <p>This is Page Three.</p>
+    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left">Open Panel</a>
   </div>
-
-  <div data-role="footer" data-position="fixed">
-    <h1>Footer Text</h1>
+   
+  <div data-role="footer">
+  <h1>Page Footer</h1>
   </div>
 </div> 
+
+
 
 </body>
 </html>
